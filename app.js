@@ -16,6 +16,7 @@ app.use(
     secret: "keyboard cat",
     resave: false,
     saveUninitialized: true,
+      maxAge: 5000
   })
 );
 // view engine setup
